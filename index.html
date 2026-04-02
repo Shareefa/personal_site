@@ -156,6 +156,52 @@
                 color: #78716c;
                 font-size: 0.95rem;
             }
+
+            .blog-entry {
+                display: block;
+                text-decoration: none;
+                color: #1c1917;
+                padding: 16px 0;
+                border-bottom: 1px solid #e7e5e4;
+                transition: color 0.15s;
+            }
+
+            .blog-entry:hover {
+                color: #d97706;
+            }
+
+            .blog-date {
+                font-size: 0.8rem;
+                color: #78716c;
+                display: block;
+                margin-bottom: 4px;
+            }
+
+            .blog-title {
+                font-family: "Instrument Serif", serif;
+                font-size: 1.15rem;
+                display: block;
+                margin-bottom: 4px;
+            }
+
+            .blog-desc {
+                font-size: 0.875rem;
+                color: #78716c;
+                display: block;
+            }
+
+            .blog-tags {
+                display: block;
+                margin-top: 6px;
+            }
+
+            .blog-tag {
+                background: #f5f0eb;
+                color: #78716c;
+                padding: 2px 8px;
+                border-radius: 4px;
+                font-size: 0.7rem;
+            }
         </style>
     </head>
     <body>
@@ -234,7 +280,14 @@
             </div>
 
             <div id="blog" class="tab">
-                <p class="blog-empty">More to come!</p>
+                <!-- BLOG_LIST_START -->
+                <a href="blog/contributing-to-academic-oss/" class="blog-entry">
+                    <span class="blog-date">Mar 31, 2026</span>
+                    <span class="blog-title">Clauding around Academic Open Source Libraries</span>
+                    <span class="blog-desc">Using Claude to contribute to epidemiology libraries.</span>
+                    <span class="blog-tags"><span class="blog-tag">OSS</span> <span class="blog-tag">Claude</span> <span class="blog-tag">Rust</span> <span class="blog-tag">R</span> <span class="blog-tag">Epidemiology</span></span>
+                </a>
+                <!-- BLOG_LIST_END -->
             </div>
         </div>
 
