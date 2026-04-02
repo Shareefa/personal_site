@@ -10,7 +10,7 @@ tags:
   - Rust
   - R
   - Epidemiology
-draft: true
+draft: false
 featured: false
 toc: true
 reading_time: 5
