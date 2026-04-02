@@ -1,9 +1,9 @@
 ---
-title: "5x Faster DLNM: Rewriting an Epidemiology Library's Hot Path in Rust"
+title: "5x Faster DLNM: Rewriting an Epidemiology Library's Hot Path"
 slug: "contributing-to-academic-oss"
 date: 2026-04-01
 updated: 2026-04-01
-description: "Using Claude to contribute to epidemiology libraries."
+description: "How I to optimized an R epidemiology package by rewriting its hot path in Rust."
 tags:
   - OSS
   - Claude
