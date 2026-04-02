@@ -1,5 +1,5 @@
 ---
-title: "Clauding around Academic Open Source Libraries"
+title: "5x Faster DLNM: Rewriting an Epidemiology Library's Hot Path in Rust"
 slug: "contributing-to-academic-oss"
 date: 2026-04-01
 updated: 2026-04-01
